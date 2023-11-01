@@ -1,0 +1,351 @@
+
+/* ==============
+    Preloader CSS
+==================================== */
+.preloader {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	background: #fff;
+}
+.loader {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+}
+.spinner {
+	width: 60px;
+	height: 60px;
+	position: relative;
+}
+.double-bounce1, .double-bounce2 {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #f6425f;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+	animation: sk-bounce 2.0s infinite ease-in-out;
+}
+.double-bounce2 {
+	-webkit-animation-delay: -1.0s;
+	animation-delay: -1.0s;
+}
+@-webkit-keyframes sk-bounce {
+    0%, 100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+/* ==============
+    End Preloader CSS
+==================================== */
+
+/* ==============
+    Top header CSS
+==================================== */
+.top-header {
+    background-color: #f2eee2;
+}
+.top-header ul {
+    list-style-type: none;
+    padding: 15px 0;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+.top-header ul li {
+    display: inline-block;
+    color: #666;
+}
+.top-header ul li a {
+    color: #666;
+}
+.top-header ul li a:hover {
+    color: #f6425f;
+}
+.top-info-links li {
+    margin-right: 15px;
+}
+.top-info-links li i {
+    padding-right: 3px;
+    font-size: 20px;
+}
+.top-social-links li {
+    margin-right: 15px;
+}
+.top-social-links li i {
+    font-size: 16px;
+}
+.login-regi-links::before {
+    background-color: #cccccc;
+    width: 1px;
+    height: 100%;
+    content: "";
+    left: -5px;
+    top: 0;
+    position: absolute;
+}
+.login-regi-links li {
+    margin-left: 10px;
+}
+.login-regi-links a {
+    font-weight: 600;
+}
+/* ==============
+    End Top header CSS
+==================================== */
+
+/* ==============
+    Navbar CSS
+==================================== */
+.header-sticky.is-sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	box-shadow: 0 8px 6px -6px rgba(0,0,0,.4);
+	-webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+	animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+.dev-navbar {
+	background-color: #fff;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.navbar-light .navbar-brand {
+	padding: 0;
+}
+.navbar-light .navbar-brand img {
+    width: 150px;
+}
+.dev-navbar .navbar-nav .nav-link {
+	text-transform: capitalize;
+	padding: 10px 15px;
+	color: #1f2d30;
+	font-weight: 600;
+	font-size: 16px;
+}
+.dev-navbar .navbar-nav .dropdown-item {
+    padding: 10px 15px;
+}
+
+.dev-navbar .navbar-nav .active>.nav-link,
+.dev-navbar .navbar-nav .nav-link.active,
+.dev-navbar .navbar-nav .nav-link.show,
+.dev-navbar .navbar-nav .show>.nav-link {
+    color: #f6425f;
+}
+.dev-navbar .dropdown-item.active, .dev-navbar .dropdown-item:active {
+    color: #f6425f;
+    background-color: #fff;
+}
+.dev-navbar i.icofont-search {
+    font-size: 18px;
+}
+.dev-navbar i.icofont-cart-alt {
+    font-size: 20px;
+}
+/*submenu style start from here*/
+.dropdown-menu {
+    padding: 0px 0;
+    margin: 0 0 0;
+    border: 0px solid transition !important;
+    border: 0px solid rgba(0,0,0,.15);
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+/*first level*/
+.dev-navbar .collapse ul > li:hover > a {
+    background: #f5f5f5;
+}
+.dev-navbar .collapse ul ul > li:hover > a, .navbar .show .dropdown-menu > li > a:focus, .navbar .show .dropdown-menu > li > a:hover {
+	background: #fff;
+	color: #f6425f;
+}
+/*second level*/
+.dev-navbar .collapse ul ul ul > li:hover > a {
+	background: #fff;
+	color: #f6425f;
+}
+/*third level*/
+.dev-navbar .collapse ul ul, .dev-navbar .collapse ul ul.dropdown-menu {
+	background: #f5f5f5;
+}
+.dev-navbar .collapse ul ul ul, .dev-navbar .collapse ul ul ul.dropdown-menu {
+	background: #f5f5f5;
+}
+.dev-navbar .collapse ul ul ul ul, .dev-navbar .collapse ul ul ul ul.dropdown-menu {
+    background:#f5f5f5
+}
+/*Drop-down menu work on hover
+
+@media only screen and (max-width: 991px) {
+    .dev-navbar .show > .dropdown-toggle::after {
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+    }
+}
+@media only screen and (min-width: 991px) {
+    .dev-navbar .dropdown > .dropdown-menu, .dev-navbar .cart-item .dropdown-menu {
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        overflow: hidden;
+        transform-origin: top center;
+        -webkit-transform-origin: top center;
+        transform: scale(1, 0);
+        -webkit-transform: scale(1, 0);
+        display: block;
+    }
+    .dev-navbar .dropdown:hover > .dropdown-menu, .dev-navbar .cart-item:hover .dropdown-menu {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+    .dev-navbar .collapse ul li {
+        position:relative;
+    }
+    .dev-navbar .dropdown ul li:hover> ul {
+        display:block
+    }
+    .dev-navbar .collapse ul ul {
+        position:absolute;
+        top:100%;
+        left:0;
+        min-width:250px;
+        display:none;
+    }
+    .dev-navbar .collapse ul .cart-item ul {
+        right: 0;
+        left:auto;
+        width:300px;
+    }
+    .dev-navbar .collapse ul ul li {
+        position:relative
+    }
+    .dev-navbar .collapse ul ul li:hover> ul {
+        display:block
+    }
+    .dev-navbar .collapse ul ul ul {
+        position:absolute;
+        top:0;
+        left:100%;
+        min-width:250px;
+        display:none
+    }
+    .dev-navbar .collapse ul ul ul li {
+        position:relative
+    }
+    .dev-navbar .collapse ul ul ul li:hover ul {
+        display:block
+    }
+    .dev-navbar .collapse ul ul ul ul {
+        position:absolute;
+        top:0;
+        left:-100%;
+        min-width:250px;
+        display:none;
+        z-index:1
+    }
+}
+*/
+/*
+.dev-navbar2 .navbar-brand {
+    z-index: 20;
+}
+.dev-navbar2:before {
+    content: "";
+    position: absolute;
+    background-color: #f6425f;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 83% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 83% 100%, 0% 100%);
+    width: 400px;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+}
+.dev-navbar3 .navbar-brand {
+    z-index: 20;
+}
+.dev-navbar3:before {
+    content: "";
+    position: absolute;
+    background-color: #f6425f;
+    -webkit-clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
+    width: 400px;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+}
+.dev-navbar4 .navbar-brand {
+    z-index: 20;
+}
+.dev-navbar4:before {
+    content: "";
+    position: absolute;
+    background-color: #f6425f;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 91% 50%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0, 91% 50%, 100% 100%, 0% 100%);
+    width: 340px;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+}
+@media only screen and (min-width: 1480px) {
+    .dev-navbar2:before {
+        width: 500px;
+    }
+    .dev-navbar3:before {
+        width: 500px;
+    }
+    .dev-navbar4:before {
+        width: 500px;
+    }
+}
+@media only screen and (min-width: 1700px) {
+    .dev-navbar2:before {
+        width: 700px;
+    }
+    .dev-navbar3:before {
+        width: 700px;
+    }
+    .dev-navbar4:before {
+        width: 650px;
+    }
+}
+/**/
+
+/**/
+/* ==============
+    End Navbar CSS
+==================================== */
