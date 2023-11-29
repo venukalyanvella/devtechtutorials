@@ -31,7 +31,7 @@
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-	background-color: #f6425f;
+	background-color: #f15a24;
 	opacity: 0.6;
 	position: absolute;
 	top: 0;
@@ -68,6 +68,9 @@
 /* ==============
     Top header CSS
 ==================================== */
+
+
+
 .top-header {
     background-color: #f2eee2;
 }
@@ -86,7 +89,7 @@
     color: #666;
 }
 .top-header ul li a:hover {
-    color: #f6425f;
+    color: #f15a24;
 }
 .top-info-links li {
     margin-right: 15px;
@@ -141,6 +144,7 @@
 }
 .navbar-light .navbar-brand {
 	padding: 0;
+  font-weight: bold;
 }
 .navbar-light .navbar-brand img {
     width: 150px;
@@ -160,10 +164,10 @@
 .dev-navbar .navbar-nav .nav-link.active,
 .dev-navbar .navbar-nav .nav-link.show,
 .dev-navbar .navbar-nav .show>.nav-link {
-    color: #f6425f;
+    color: #f15a24;
 }
 .dev-navbar .dropdown-item.active, .dev-navbar .dropdown-item:active {
-    color: #f6425f;
+    color: #f15a24;
     background-color: #fff;
 }
 .dev-navbar i.icofont-search {
@@ -188,12 +192,12 @@
 }
 .dev-navbar .collapse ul ul > li:hover > a, .navbar .show .dropdown-menu > li > a:focus, .navbar .show .dropdown-menu > li > a:hover {
 	background: #fff;
-	color: #f6425f;
+	color: #f15a24;
 }
 /*second level*/
 .dev-navbar .collapse ul ul ul > li:hover > a {
 	background: #fff;
-	color: #f6425f;
+	color: #f15a24;
 }
 /*third level*/
 .dev-navbar .collapse ul ul, .dev-navbar .collapse ul ul.dropdown-menu {
@@ -282,7 +286,7 @@
 .dev-navbar2:before {
     content: "";
     position: absolute;
-    background-color: #f6425f;
+    background-color: #f15a24;
     -webkit-clip-path: polygon(0 0, 100% 0%, 83% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0%, 83% 100%, 0% 100%);
     width: 400px;
@@ -297,7 +301,7 @@
 .dev-navbar3:before {
     content: "";
     position: absolute;
-    background-color: #f6425f;
+    background-color: #f15a24;
     -webkit-clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
     width: 400px;
@@ -312,7 +316,7 @@
 .dev-navbar4:before {
     content: "";
     position: absolute;
-    background-color: #f6425f;
+    background-color: #f15a24;
     -webkit-clip-path: polygon(0% 0%, 100% 0, 91% 50%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 100% 0, 91% 50%, 100% 100%, 0% 100%);
     width: 340px;

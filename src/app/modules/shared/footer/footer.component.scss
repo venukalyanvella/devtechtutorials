@@ -1,0 +1,114 @@
+.copyright-bar {
+  padding: 35px 0px;
+  text-align: center;
+}
+
+.copyright-bar .copyright {
+  color: #999;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px
+}
+
+.social {
+  overflow: hidden
+}
+
+.social a {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 999px;
+  margin-bottom: 10px
+}
+
+.social a:hover {
+  color: #fff;
+}
+
+
+.social .fb a {
+  font-size: 16px;
+  display: inline-block!important;
+  text-align: center;
+  padding: 0;
+  background: #3C5B9B !important;
+}
+
+
+.social .tw a {
+  font-size: 16px;
+  display: inline-block!important;
+  text-align: center;
+  padding: 0;
+  background: #359BED !important;
+}
+
+
+
+.social .googleplus a {
+  font-size: 16px;
+  display: inline-block!important;
+  text-align: center;
+  padding: 0;
+  background: #E33729!important;
+}
+
+
+
+
+.social .pintrest a {
+
+  font-size: 16px;
+  display: inline-block!important;
+  text-align: center;
+  padding: 0;
+  background: #cb2027 !important;
+}
+
+
+.social .linkedin a {
+
+  font-size: 16px;
+  display: inline-block!important;
+  text-align: center;
+  padding: 0;
+  background: #027ba5 !important;
+}
+
+
+
+.social .youtube a {
+  font-size: 16px;
+  display: inline-block!important;
+  text-align: center;
+  padding: 0;
+  background: #F03434 !important;
+}
+
+.social h4 {
+  margin: 25px 0 0px 0px;
+}
+
+.social ul {
+  margin: 0;
+  list-style: none;
+}
+
+.social ul li {
+  margin-right: 7px;
+  display: inline-block
+}
+
+.social ul li {
+  border-bottom: none;
+}
+
+.social a {
+  transition: background 400ms ease-in-out;
+  -webkit-transition: background 400ms ease-in-out;
+  -moz-transition: background 400ms ease-in-out;
+  -o-transition: background 400ms ease-in-out;
+}
