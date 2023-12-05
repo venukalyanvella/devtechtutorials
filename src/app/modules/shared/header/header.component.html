@@ -1,79 +1,97 @@
+<!-- Top header -->
+<header class="top-header" *ngIf="false">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <ul class="top-info-links">
 
-        <!-- Top header -->
-        <header class="top-header" *ngIf="false">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-6 col-lg-6">
-                      <ul class="top-info-links">
+        </ul>
+      </div>
 
-                      </ul>
-                  </div>
+      <div class="col-md-6 col-lg-6 text-end">
+        <ul class="top-social-links">
+          <li><a><i class="far fa-twitter"></i></a></li>
+          <li><a><i class="far fa-facebook-f"></i></a></li>
 
-                  <div class="col-md-6 col-lg-6 text-end">
-                      <ul class="top-social-links">
-                          <li><a ><i class="far fa-twitter"></i></a></li>
-                          <li><a ><i class="far fa-facebook-f"></i></a></li>
+          <li><a><i class="fa fa-instagram"></i></a></li>
+        </ul>
 
-                          <li><a ><i class="fa fa-instagram"></i></a></li>
-                      </ul>
-
-                      <ul class="login-regi-links">
-                          <!-- <li><i class="icofont-clock-time"></i> 7.30 AM - 9.30 PM</li> -->
-                          <!-- <li><i class="icofont-phone-circle"></i> +91 97314 61452 </li> -->
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </header>
-      <!-- End top header -->
-
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light dev-navbar header-sticky">
-          <div class="container">
-              <a class="navbar-brand" href="index.html">
-                  <!-- <img src="assets/img/logo.png" alt="Logo"> -->
-                  devtechtutorials
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto">
-                      <li class="nav-item active ">
-                          <a class="nav-link " href="index.html" >
-                              Home
-                          </a>
-                      </li>
-
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle"  id="navbarDropdownPages" role="button"  data-bs-toggle="dropdown">
-                            Popular  Courses
-                          </a>
-
-                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownPages">
-                              <li><a class="dropdown-item" >Angular</a></li>
-                              <li><a class="dropdown-item" >Dot Net</a></li>
-                              <li><a class="dropdown-item" >Javascript</a></li>
-                              <li><a class="dropdown-item" >Typescript</a></li>
-                          </ul>
-                      </li>
-                      <li class="nav-item  ">
-                          <a class="nav-link " href="about-us.html" >
-                              About Us
-                          </a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contact Us</a>
-                      </li>
+        <ul class="login-regi-links">
+          <!-- <li><i class="icofont-clock-time"></i> 7.30 AM - 9.30 PM</li> -->
+          <!-- <li><i class="icofont-phone-circle"></i> +91 97314 61452 </li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End top header -->
 
 
 
 
-                  </ul>
-              </div>
-          </div>
-      </nav>
-      <!-- End navbar -->
+
+<!--======================================
+        START HEADER AREA
+    ======================================-->
+<header class="header-menu-area bg-white">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light dev-navbar header-sticky">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <!-- <img src="assets/img/logo.png" alt="Logo"> -->
+        devtechtutorials
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto main-menu">
+          <li class="nav-item active ">
+            <a class="nav-link " >
+              Home
+            </a>
+          </li>
+          <li class="nav-item drop-menu-list">
+            <a href="#">Home <i class="fa fa-angle-down fs-12"></i></a>
+            <ul class="dropdown-menu-item">
+                <li><a href="index-1.html">Home One</a></li>
+                <li><a href="home-2-1.html">Home Two</a></li>
+                <li><a href="home-3-1.html">Home Three</a></li>
+                <li><a href="home-4-1.html">Home four</a></li>
+            </ul>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+              Popular Courses
+            </a>
+
+            <ul class="dropdown-menu-item" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item">Angular</a></li>
+              <li><a class="dropdown-item">Dot Net</a></li>
+              <li><a class="dropdown-item">Javascript</a></li>
+              <li><a class="dropdown-item">Typescript</a></li>
+            </ul>
+          </li>
+          <li class="nav-item  ">
+            <a class="nav-link " href="#">
+              About Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
 
 
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End navbar -->
+</header><!-- end header-menu-area -->
+<!--======================================
+          END HEADER AREA
+  ======================================-->
