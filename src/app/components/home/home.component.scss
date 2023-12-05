@@ -1,5 +1,10 @@
 
 
+.course-section{
+  padding-top:80px;
+  padding-bottom: 80px;
+}
+
 .single-tutor {
   border: 1px solid #fff;
   text-align: center;
@@ -13,17 +18,27 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-.tutor-title {
-  margin-top: 20px;
-}
-
 
 .tutor_title {
   // color: #f15a24;
   color: #f15a24;
-  ;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
 }
 
+.custom-card{
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    outline: none;
+    border: none;
+}
+
+.custom-card:hover{
+  cursor: pointer;
+}
 
 .join-section{
   background-color:rgb(255 242 239 /1);
@@ -60,4 +75,16 @@ a{
 }
 .leading-6 {
   line-height: 1.5rem;
+}
+.default-btn{
+  background-color: #ec5252;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    outline: none;
 }

@@ -1,54 +1,57 @@
 <app-header></app-header>
 
 
-<section class="join-section">
+<section class="course-section">
   <div class="container">
-    <a href="#">
-      <div class="right-img" style="background-image: url('https://static.tutsplus.com/packs/media/images/home/YT_Crop@2x-0d630374894061da26e577c804cd3c04.png');">
 
-      </div>
-      <div class="left-content px-16 py-24">
-        <div class=" font-bold mb-3 leading-10 ">Join Us on YouTube</div>
-        <div class="text-lg mb-10 leading-7 text-grey-1000">Creative courses and tutorials. Subscribe for daily videos.</div>
-        <div class="text-lg text-d font-bold leading-6">
-          Envato Tuts+ on YouTube
-          <i class="fa fa-arrow-right"></i>
-        </div>
-      </div>
-    </a>
+
+    <div class="section-header text-center">
+      <h5>Learn  Tutorials Online</h5>
   </div>
+        <div class="row">
+          <div class="col-sm-6  col-md-6 col-lg-3" *ngFor="let course of courses">
+            <div class="card custom-card mt-5">
+                <img class="card-img-top" width="206px" height="110px" [src]="course.image" alt="tutor">
 
+               <div class="card-body">
+                <div class="tutor-title">
+                  <h5 class="tutor_title">{{course.name}}</h5>
+
+
+              </div>
+
+               </div>
+
+            </div>
+        </div>
+
+        </div>
+
+
+
+
+    </div>
 </section>
 
-<div class="container">
 
+  <section class="join-section">
+    <div class="container">
+      <a href="#">
+        <div class="right-img" style="background-image: url('https://static.tutsplus.com/packs/media/images/home/YT_Crop@2x-0d630374894061da26e577c804cd3c04.png');">
 
-  <div class="section-header text-center">
-    <h5>Learn  Tutorials Online</h5>
-</div>
-      <div class="row">
-        <div class="col-sm-6  col-md-6 col-lg-3" *ngFor="let course of courses">
-          <div class="card mt-5">
-              <img class="card-img-top" width="250px" height="200px" [src]="course.image" alt="tutor">
-
-             <div class="card-body">
-              <div class="tutor-title">
-                <h5 class="tutor_title">{{course.name}}</h5>
-                <p>{{course.content}}</p>
-                <button class="btn btn-success"> {{course.status ===true ? 'Start' :'Coming Soon' }}  </button>
-            </div>
-
-             </div>
-
+        </div>
+        <div class="left-content px-16 py-24">
+          <div class=" font-bold mb-3 leading-10 ">Join Us on YouTube</div>
+          <div class="text-lg mb-10 leading-7 text-grey-1000">Creative courses and tutorials. Subscribe for daily videos.</div>
+          <div class="text-lg text-d font-bold leading-6">
+            Envato Tuts+ on YouTube
+            <i class="fa fa-arrow-right"></i>
           </div>
-      </div>
+        </div>
+      </a>
+    </div>
 
-      </div>
-
-
-
-  </div>
-
+  </section>
 
 
 
