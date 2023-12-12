@@ -1,0 +1,23 @@
+body {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Inter, sans-serif;
+  color: #7f8897;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
+}
+
+
+.default-btn{
+  background-color: #ec5252;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}

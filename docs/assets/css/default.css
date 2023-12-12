@@ -24,26 +24,7 @@
 	font-size: 18px;
 	opacity: .6;
 }
-.checkout-area input::-moz-placeholder, .checkout-area textarea::-moz-placeholder, .calculate-shopping-info-area input::placeholder,.coupon-apply-area input::placeholder, .contact-page.contact-area input::placeholder, .error-search input::placeholder,.side-mobile-menu .side-menu-search input::placeholder,.login-register-area input::placeholder {
-	color: #888888;
-	font-size: 16px;
-	opacity: .9;
-}
-.checkout-area input::placeholder, .checkout-area textarea::-moz-placeholder, .calculate-shopping-info-area input::placeholder,.coupon-apply-area input::-moz-placeholder, .contact-page.contact-area input:-moz-placeholder, .error-search input:-moz-placeholder,.side-mobile-menu .side-menu-search input:-moz-placeholder,.login-register-area input::-moz-placeholder{
-	color: #888888;
-	font-size: 16px;
-	opacity: .9;
-}
-.header-search-content input::placeholder {
-	color: #666666;
-	font-size: 24px;
-	opacity: 1;
-}
-.header-search-content input::-moz-placeholder{
-	color: #666666;
-	font-size: 24px;
-	opacity: 1;
-}
+
 
 /* Default Margin & Padding */
 /*-- Margin Top --*/
